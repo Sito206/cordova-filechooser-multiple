@@ -1,3 +1,5 @@
+Proyecto original : https://github.com/ihadeed/cordova-filechooser/
+
 # Cordova FileChooser Plugin
 
 Requires Cordova >= 2.8.0
