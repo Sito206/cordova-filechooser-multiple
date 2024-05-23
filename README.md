@@ -9,7 +9,7 @@ Requires Cordova >= 2.8.0
 
 ## Install with Plugman
 	$ plugman --platform android --project /path/to/project \ 
-		--plugin http://github.com/ihadeed/cordova-filechooser.git
+		--plugin https://github.com/Sito206/cordova-filechooser-multiple.git
 
 ## API
 
@@ -25,10 +25,10 @@ fileChooser.open(successCallback. failureCallback); // without mime filter
 { "mime": "application/pdf" }  // text/plain, image/png, image/jpeg, audio/wav etc
 ```
 
-The success callback gets the uri of the selected file
+Successful callback gets the uri of the selected files
 
 ```javascript
-fileChooser.open(function(uri) {
+fileChooser.open(function(uri[]) {
   alert(uri);
 });
 ```
